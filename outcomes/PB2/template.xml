@@ -5,7 +5,13 @@
 <!-- {{#space}} -->
 According to pi-Base, the space <url href="{{{url}}}">{{{name}}}</url> ({{uid}})
 <!-- {{/space}} -->
-has the following properties.
+must {{{target_must}}}. Explain how the human-proven properties and
+theorems of pi-Base lead to this conclusion.
+        </p>
+    </content>
+    <outtro>
+        <p>
+pi-Base deduces this using these given properties:
         </p>
         <list>
             <!-- {{#givens}} -->
@@ -13,15 +19,9 @@ has the following properties.
             <!-- {{/givens}} -->
         </list>
         <p>
-Using only these facts together with theorems listed in pi-Base, explain why
-this space must {{{target_must}}}. Cite each theorem you use and
-state what it lets you conclude.
-        </p>
-    </content>
-    <outtro>
-        <p>
-pi-Base deduces this using {{theorem_count}} theorems
-(<url href="{{{proof_url}}}">see the deduction</url>). One valid argument:
+and these
+<url href="{{{proof_url}}}">{{theorem_count}} theorems</url>.
+One valid argument:
         </p>
         <list>
             <!-- {{#steps}} -->

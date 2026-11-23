@@ -460,7 +460,7 @@ def pb2_pool(D, full, provers, rng, min_thms=5, max_thms=8, per_target=20):
             givens = proof["properties"]
             if not (min_thms <= len(set(thms)) <= max_thms):
                 continue
-            if not 1 <= len(givens) <= 4:
+            if not 2 <= len(givens) <= 4:
                 continue
             if not set(givens) <= allowed or not D.proof_ok(thms):
                 continue

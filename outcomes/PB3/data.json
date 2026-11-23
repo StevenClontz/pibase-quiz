@@ -4,6 +4,147 @@
   {
    "hypotheses": [
     {
+     "uid": "P000057",
+     "value": false,
+     "name": "Countable",
+     "phrase": "not Countable",
+     "url": "https://topology.pi-base.org/properties/P000057"
+    },
+    {
+     "uid": "P000007",
+     "value": true,
+     "name": "<m>T_4</m>",
+     "phrase": "<m>T_4</m>",
+     "url": "https://topology.pi-base.org/properties/P000007"
+    },
+    {
+     "uid": "P000050",
+     "value": true,
+     "name": "Zero dimensional",
+     "phrase": "Zero dimensional",
+     "url": "https://topology.pi-base.org/properties/P000050"
+    }
+   ],
+   "conclusion": {
+    "uid": "P000037",
+    "value": false,
+    "name": "Path connected",
+    "phrase": "not Path connected",
+    "url": "https://topology.pi-base.org/properties/P000037"
+   },
+   "search_query": "not Countable + T4 + Zero dimensional + Path connected",
+   "theorems": [
+    {
+     "uid": "T000187",
+     "statement": "Finite <m>\\Rightarrow</m> Countable",
+     "url": "https://topology.pi-base.org/theorems/T000187"
+    },
+    {
+     "uid": "T000098",
+     "statement": "<m>T_4</m> <m>\\Rightarrow</m> <m>T_1</m>",
+     "url": "https://topology.pi-base.org/theorems/T000098"
+    },
+    {
+     "uid": "T000250",
+     "statement": "not Finite <m>\\Rightarrow</m> Has multiple points",
+     "url": "https://topology.pi-base.org/theorems/T000250"
+    },
+    {
+     "uid": "T000040",
+     "statement": "Path connected <m>\\Rightarrow</m> Connected",
+     "url": "https://topology.pi-base.org/theorems/T000040"
+    },
+    {
+     "uid": "T000119",
+     "statement": "<m>T_1</m> <m>\\Rightarrow</m> <m>T_0</m>",
+     "url": "https://topology.pi-base.org/theorems/T000119"
+    },
+    {
+     "uid": "T000052",
+     "statement": "Totally disconnected and Has multiple points <m>\\Rightarrow</m> not Connected",
+     "url": "https://topology.pi-base.org/theorems/T000052"
+    },
+    {
+     "uid": "T000073",
+     "statement": "Zero dimensional and <m>T_0</m> <m>\\Rightarrow</m> Totally separated",
+     "url": "https://topology.pi-base.org/theorems/T000073"
+    },
+    {
+     "uid": "T000046",
+     "statement": "Totally separated <m>\\Rightarrow</m> Totally disconnected",
+     "url": "https://topology.pi-base.org/theorems/T000046"
+    }
+   ],
+   "steps": [
+    {
+     "theorem": {
+      "uid": "T000098",
+      "statement": "<m>T_4</m> <m>\\Rightarrow</m> <m>T_1</m>",
+      "url": "https://topology.pi-base.org/theorems/T000098"
+     },
+     "conclusion": "is <m>T_1</m>"
+    },
+    {
+     "theorem": {
+      "uid": "T000119",
+      "statement": "<m>T_1</m> <m>\\Rightarrow</m> <m>T_0</m>",
+      "url": "https://topology.pi-base.org/theorems/T000119"
+     },
+     "conclusion": "is <m>T_0</m>"
+    },
+    {
+     "theorem": {
+      "uid": "T000073",
+      "statement": "Zero dimensional and <m>T_0</m> <m>\\Rightarrow</m> Totally separated",
+      "url": "https://topology.pi-base.org/theorems/T000073"
+     },
+     "conclusion": "is Totally separated"
+    },
+    {
+     "theorem": {
+      "uid": "T000040",
+      "statement": "Path connected <m>\\Rightarrow</m> Connected",
+      "url": "https://topology.pi-base.org/theorems/T000040"
+     },
+     "conclusion": "is Connected"
+    },
+    {
+     "theorem": {
+      "uid": "T000187",
+      "statement": "Finite <m>\\Rightarrow</m> Countable",
+      "url": "https://topology.pi-base.org/theorems/T000187"
+     },
+     "conclusion": "is not Finite"
+    },
+    {
+     "theorem": {
+      "uid": "T000250",
+      "statement": "not Finite <m>\\Rightarrow</m> Has multiple points",
+      "url": "https://topology.pi-base.org/theorems/T000250"
+     },
+     "conclusion": "has multiple points"
+    },
+    {
+     "theorem": {
+      "uid": "T000052",
+      "statement": "Totally disconnected and Has multiple points <m>\\Rightarrow</m> not Connected",
+      "url": "https://topology.pi-base.org/theorems/T000052"
+     },
+     "conclusion": "is not Totally disconnected"
+    },
+    {
+     "theorem": {
+      "uid": "T000046",
+      "statement": "Totally separated <m>\\Rightarrow</m> Totally disconnected",
+      "url": "https://topology.pi-base.org/theorems/T000046"
+     },
+     "conclusion": "a contradiction"
+    }
+   ]
+  },
+  {
+   "hypotheses": [
+    {
      "uid": "P000037",
      "value": true,
      "name": "Path connected",
@@ -32613,69 +32754,6 @@
       "uid": "T000046",
       "statement": "Totally separated <m>\\Rightarrow</m> Totally disconnected",
       "url": "https://topology.pi-base.org/theorems/T000046"
-     },
-     "conclusion": "a contradiction"
-    }
-   ]
-  },
-  {
-   "hypotheses": [
-    {
-     "uid": "P000028",
-     "value": true,
-     "name": "First countable",
-     "phrase": "First countable",
-     "url": "https://topology.pi-base.org/properties/P000028"
-    },
-    {
-     "uid": "P000005",
-     "value": false,
-     "name": "<m>T_3</m>",
-     "phrase": "not <m>T_3</m>",
-     "url": "https://topology.pi-base.org/properties/P000005"
-    },
-    {
-     "uid": "P000004",
-     "value": true,
-     "name": "<m>T_{2 \\frac{1}{2}}</m>",
-     "phrase": "<m>T_{2 \\frac{1}{2}}</m>",
-     "url": "https://topology.pi-base.org/properties/P000004"
-    }
-   ],
-   "conclusion": {
-    "uid": "P000019",
-    "value": false,
-    "name": "Countably compact",
-    "phrase": "not Countably compact",
-    "url": "https://topology.pi-base.org/properties/P000019"
-   },
-   "search_query": "First countable + not T3 + T2.5 + Countably compact",
-   "theorems": [
-    {
-     "uid": "T000028",
-     "statement": "<m>T_2</m> and Countably compact and First countable <m>\\Rightarrow</m> <m>T_3</m>",
-     "url": "https://topology.pi-base.org/theorems/T000028"
-    },
-    {
-     "uid": "T000032",
-     "statement": "<m>T_{2 \\frac{1}{2}}</m> <m>\\Rightarrow</m> <m>T_2</m>",
-     "url": "https://topology.pi-base.org/theorems/T000032"
-    }
-   ],
-   "steps": [
-    {
-     "theorem": {
-      "uid": "T000028",
-      "statement": "<m>T_2</m> and Countably compact and First countable <m>\\Rightarrow</m> <m>T_3</m>",
-      "url": "https://topology.pi-base.org/theorems/T000028"
-     },
-     "conclusion": "is not <m>T_2</m>"
-    },
-    {
-     "theorem": {
-      "uid": "T000032",
-      "statement": "<m>T_{2 \\frac{1}{2}}</m> <m>\\Rightarrow</m> <m>T_2</m>",
-      "url": "https://topology.pi-base.org/theorems/T000032"
      },
      "conclusion": "a contradiction"
     }

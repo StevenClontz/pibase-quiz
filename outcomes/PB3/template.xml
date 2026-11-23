@@ -2,7 +2,7 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
         <p>
-Suppose a topological space has the following properties.
+Use the theorems of pi-Base to prove that a space with these properties
         </p>
         <list>
             <!-- {{#hypotheses}} -->
@@ -10,9 +10,7 @@ Suppose a topological space has the following properties.
             <!-- {{/hypotheses}} -->
         </list>
         <p>
-pi-Base shows that no space has these three properties while also being
-{{{negated_conclusion}}}. Explain why the space must {{{conclusion_must}}}.
-Cite each pi-Base theorem you use.
+must {{{conclusion_must}}}.
         </p>
     </content>
     <outtro>

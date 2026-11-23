@@ -2,17 +2,13 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
         <p>
-Use pi-Base (<url href="https://topology.pi-base.org">topology.pi-base.org</url>)
-to find a topological space with all three of the following properties.
-        </p>
-        <list>
-            <!-- {{#properties}} -->
-            <item><p>{{{phrase}}}</p></item>
-            <!-- {{/properties}} -->
-        </list>
-        <p>
-Give the name of your space, and for each of the three properties, explain
-how pi-Base justifies that your space has (or does not have) that property.
+Use <url href="https://topology.pi-base.org"><m>\pi</m>-Base</url>
+to find a topological space which is
+<!-- {{#properties}} -->
+<!-- {{#last}} -->and<!-- {{/last}} -->
+{{{phrase}}}<!-- {{#last}} -->.<!-- {{/last}} --><!-- {{^last}} -->,<!-- {{/last}} -->
+<!-- {{/properties}} -->
+Give both the name and ID of this space.
         </p>
     </content>
     <outtro>
@@ -25,9 +21,5 @@ Searching pi-Base for <c>{{{search_query}}}</c> returns the following spaces
             <item><p><url href="{{{url}}}">{{{name}}}</url> ({{uid}})</p></item>
             <!-- {{/examples}} -->
         </list>
-        <p>
-Each property's page on a space shows whether it was asserted directly
-(with a reference) or deduced from other properties using theorems.
-        </p>
     </outtro>
 </knowl>

@@ -8,6 +8,7 @@ class Generator(BaseGenerator):
         item = choice(pool)
         properties = list(item["properties"])
         shuffle(properties)
+        properties[-1]["last"] = True
         return {
             "properties": properties,
             "search_query": item["search_query"],
