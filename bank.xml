@@ -28,21 +28,5 @@ Explain why a space has a property, using theorems and the properties pi-Base de
 Explain why a combination of properties implies another, given that pi-Base finds no counterexample.
             </description>
         </outcome>
-        <outcome>
-            <title>Sample Outcome</title>
-            <slug>EX1</slug>
-            <path>outcomes/EX1</path>
-            <description>
-Simplify the sum of two monomials.
-            </description>
-        </outcome>
-        <outcome>
-            <title>Sample Image Outcome</title>
-            <slug>IMG1</slug>
-            <path>outcomes/IMG1</path>
-            <description>
-Example of generating graphics.
-            </description>
-        </outcome>
     </outcomes>
 </bank>
