@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Suppose a topological space has the following properties.
+        </p>
+        <list>
+            <!-- {{#hypotheses}} -->
+            <item><p>{{{phrase}}}</p></item>
+            <!-- {{/hypotheses}} -->
+        </list>
+        <p>
+pi-Base shows that no space has these three properties while also being
+{{{negated_conclusion}}}. Explain why the space must {{{conclusion_must}}}.
+Cite each pi-Base theorem you use.
+        </p>
+    </content>
+    <outtro>
+        <p>
+Searching pi-Base for <c>{{{search_query}}}</c> shows that this combination
+is impossible, using {{theorem_count}} theorems. One valid argument: suppose
+the space has the three given properties, but is {{{negated_conclusion}}}.
+        </p>
+        <list>
+            <!-- {{#derived_steps}} -->
+            <item><p>
+By <url href="{{{theorem.url}}}">{{theorem.uid}}</url> ({{{theorem.statement}}}),
+the space {{{conclusion}}}.
+            </p></item>
+            <!-- {{/derived_steps}} -->
+            <!-- {{#final_step}} -->
+            <item><p>
+But <url href="{{{theorem.url}}}">{{theorem.uid}}</url> ({{{theorem.statement}}})
+now gives a contradiction.
+            </p></item>
+            <!-- {{/final_step}} -->
+        </list>
+        <p>
+So the space must {{{conclusion_must}}}.
+        </p>
+    </outtro>
+</knowl>

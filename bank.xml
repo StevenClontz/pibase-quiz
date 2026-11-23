@@ -1,9 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.2">
-    <title>New CheckIt Bank</title>
-    <slug>new-checkit-bank</slug>
+    <title>Exploring Topology with pi-Base</title>
+    <slug>pi-base-topology</slug>
     <url>https://checkit.clontz.org</url>
     <outcomes>
+        <outcome>
+            <title>Finding examples in pi-Base</title>
+            <slug>PB1</slug>
+            <path>outcomes/PB1</path>
+            <description>
+Use pi-Base to find a topological space with a given combination of properties.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Explaining deduced properties</title>
+            <slug>PB2</slug>
+            <path>outcomes/PB2</path>
+            <description>
+Explain why a space has a property, using theorems and the properties pi-Base deduces it from.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Justifying implications</title>
+            <slug>PB3</slug>
+            <path>outcomes/PB3</path>
+            <description>
+Explain why a combination of properties implies another, given that pi-Base finds no counterexample.
+            </description>
+        </outcome>
         <outcome>
             <title>Sample Outcome</title>
             <slug>EX1</slug>

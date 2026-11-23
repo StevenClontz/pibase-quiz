@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+<!-- {{#space}} -->
+According to pi-Base, the space <url href="{{{url}}}">{{{name}}}</url> ({{uid}})
+<!-- {{/space}} -->
+has the following properties.
+        </p>
+        <list>
+            <!-- {{#givens}} -->
+            <item><p>{{{phrase}}}</p></item>
+            <!-- {{/givens}} -->
+        </list>
+        <p>
+Using only these facts together with theorems listed in pi-Base, explain why
+this space must {{{target_must}}}. Cite each theorem you use and
+state what it lets you conclude.
+        </p>
+    </content>
+    <outtro>
+        <p>
+pi-Base deduces this using {{theorem_count}} theorems
+(<url href="{{{proof_url}}}">see the deduction</url>). One valid argument:
+        </p>
+        <list>
+            <!-- {{#steps}} -->
+            <item><p>
+By <url href="{{{theorem.url}}}">{{theorem.uid}}</url> ({{{theorem.statement}}}),
+the space {{{conclusion}}}.
+            </p></item>
+            <!-- {{/steps}} -->
+        </list>
+    </outtro>
+</knowl>
